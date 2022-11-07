@@ -1,0 +1,14 @@
+
+public class HelloCat {
+    public static void main(String[] args) {
+        Cat cat = new Cat("Barsik","red", 4);
+        cat.voice();
+        System.out.println(cat);
+
+        cat.setName("Murzik");
+        System.out.println(cat.getName());
+        System.out.println(cat);
+
+
+    }
+}
