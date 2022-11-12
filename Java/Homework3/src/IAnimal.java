@@ -1,3 +1,4 @@
 public interface IAnimal {
-    public void run();
+     void run(int distance);
+    void swim(int distance);
 }
